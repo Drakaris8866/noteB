@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clone": "^2.1.2",
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
     "json-server": "^0.17.3"
   },
-  "devDependencies": {},
   "keywords": [],
   "description": ""
 }
