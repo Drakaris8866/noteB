@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "json-server --watch db.json",
-    "start": "node index.js"
+    "dev": "NODE_ENV=development node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "watch": "json-server db.json --port=8000"
   },
   "author": "",
   "license": "ISC",
